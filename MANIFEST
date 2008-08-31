@@ -1,0 +1,15 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+bin/integr8client.pl
+bin/integr8_help_example_client.pl
+bin/organism_gene_finder.pl
+lib/SOAP/Integr8.pm
+lib/SOAP/Integr8/ParamFactory.pm
+t/00-load.t
+t/01-soapaccess.t
+t/02-wrap.t
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)

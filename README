@@ -1,0 +1,57 @@
+SOAP-Integr8
+
+This module is intended to be used with the Integr8 WS for the access of
+genomic & proteomic data sets.
+
+INSTALLATION
+
+Option 1:
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+	
+Option 2:
+
+Copy the contents of lib directory to a location which can be found on 
+your @INC path. This module is pure Perl. If you do this method of
+installation please ensure that SOAP::Lite is installed on your system.
+
+Option 3:
+
+This module is available on CPAN. Normal CPAN installation rules apply.
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc SOAP::Integr8
+
+You can also look for information at:
+
+   Integr8:
+        http://www.ebi.ac.uk/integr8
+
+   Integr8 WS Help:
+        http://www.ebi.ac.uk/integr8/HelpAction.do?action=searchById&refId=59
+
+   EBI Support:
+        http://www.ebi.ac.uk/support/
+
+ACKNOWLEDGEMENTS
+
+Alan Horne who performed all the original coding & work concerning the 
+Integr8 web services code and Perl client code. Without his help, original code  and patience this API would not have been as well developed.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 European Bioinformatics Institute.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
